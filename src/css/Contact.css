@@ -1,0 +1,21 @@
+.list-contact__contact {
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-contact__contact:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.contact-content {
+  padding-left: 15px;
+}
+
+.list-contact__contact .name {
+  font-weight: bold;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}

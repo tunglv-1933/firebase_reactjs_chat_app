@@ -1,0 +1,41 @@
+.message {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.message, .message-content__message-header {
+  display: flex;
+}
+
+.message-content {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.message.active .message-content {
+  color: #fff;
+  background-color: #1d84ff;
+}
+
+.message:not(.active) .message-content {
+  color: #333;
+  background-color: #ccc;
+}
+
+.message-header__user-name {
+  font-weight: bold;
+}
+
+.message-header__time {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.message-content__message-header {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.message.active {
+  justify-content: flex-end;
+}
